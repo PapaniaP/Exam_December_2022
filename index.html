@@ -1,0 +1,1658 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culture Cave Vr</title>
+    <!-- slider -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="gallery.css" />
+    <script
+      src="https://kit.fontawesome.com/208dbc6ced.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Culture Cave</a>
+      <!-- <a href="#" class="logo-mobile">CC</a> -->
+
+      <nav class="navbar">
+        <a class="active" href="#home">Home</a>
+        <a href="#alcal">Al Calmiere</a>
+        <a href="#baraldi">Baraldi</a>
+        <a href="#laman">La Mandorla</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+      </div>
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+    <form action="" id="search-form">
+      <input
+        type="search"
+        placeholder="search here..."
+        name=""
+        id="search-box"
+      />
+      <label for="search-box" class="fas fa-search"></label>
+      <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <div class="hero" id="home">
+      <div class="container">
+        <div class="hero-text-container">
+          <h1 class="hero-head">Verona</h1>
+          <p class="hero-text">
+            What to do, where to go - here is our list of the must-see hidden
+            gems of the city
+          </p>
+        </div>
+
+        <!-- Scroll down -->
+        <div class="sdown">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="legend">
+      <div class="legend-container">
+        <div class="food">
+          <svg
+            id="Food_Icon"
+            data-name="Food Icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="67.41"
+            height="88.28"
+            viewBox="0 0 101.558 132.998"
+          >
+            <path
+              id="Icon_ionic-ios-wine"
+              data-name="Icon ionic-ios-wine"
+              d="M86.373,4.492A6.677,6.677,0,0,0,80.075,0H21.483a6.74,6.74,0,0,0-6.347,4.492C10.6,16.7,0,47.019,0,65.427V67.77c0,9.375,0,22.167,13.867,36.375a121.346,121.346,0,0,0,10.986,9.521c9.326,7.47,21.42,16.592,26.734,18.895,1.6,3.139,15.794-11.424,25.119-18.895a128.42,128.42,0,0,0,10.986-9.521c13.867-14.208,13.867-27,13.867-36.375V65.427C101.558,47.117,90.963,16.7,86.373,4.492Z"
+              transform="translate(0 0)"
+              fill="#cda334"
+            />
+            <g
+              id="Icon_metro-spoon-fork"
+              data-name="Icon metro-spoon-fork"
+              transform="translate(28.107 40.073)"
+            >
+              <path
+                id="Icon_metro-spoon-fork-2"
+                data-name="Icon metro-spoon-fork"
+                d="M13.611,1.928C8.046,1.928,3.535,7.1,3.535,13.489c0,5.467,3.307,10.047,7.752,11.252L9.618,51.483a3.1,3.1,0,0,0,3.153,3.3h1.679a3.1,3.1,0,0,0,3.153-3.3L15.935,24.741c4.444-1.2,7.752-5.785,7.752-11.252C23.687,7.1,19.176,1.928,13.611,1.928Zm33.867,0-2.8,16.516h-2.1l-1.4-16.516h-1.4l-1.4,16.516h-2.1l-2.8-16.516h-1.4V23.4a1.666,1.666,0,0,0,1.679,1.652h4.374L36.488,51.483a3.1,3.1,0,0,0,3.153,3.3h1.679a3.1,3.1,0,0,0,3.153-3.3L42.825,25.051H47.2A1.666,1.666,0,0,0,48.878,23.4V1.928Z"
+                transform="translate(-3.535 -1.928)"
+                fill="#fff"
+              />
+            </g>
+          </svg>
+          <span class="icon-text">Food</span>
+        </div>
+
+        <div class="wine">
+          <svg
+            id="Wine_Icon"
+            data-name="Wine Icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="67.41"
+            height="88.278"
+            viewBox="0 0 67.41 88.278"
+          >
+            <path
+              id="Icon_ionic-ios-wine"
+              data-name="Icon ionic-ios-wine"
+              d="M57.331,2.982A4.432,4.432,0,0,0,53.15,0H14.26a4.474,4.474,0,0,0-4.213,2.982C7.033,11.084,0,31.209,0,43.427v1.556C0,51.205,0,59.7,9.2,69.127a80.544,80.544,0,0,0,7.292,6.32c6.19,4.958,14.217,11.013,17.745,12.542,1.064,2.084,10.483-7.583,16.673-12.542a85.24,85.24,0,0,0,7.292-6.32c9.2-9.431,9.2-17.922,9.2-24.144V43.427C67.41,31.274,60.377,11.084,57.331,2.982Z"
+              transform="translate(0 0)"
+              fill="#cda334"
+            />
+            <g
+              id="Wine_Icon-2"
+              data-name="Wine Icon"
+              transform="translate(23.713 23.096)"
+            >
+              <path
+                id="Icon_ionic-ios-wine-2"
+                data-name="Icon ionic-ios-wine"
+                d="M12.751,18.07a18.833,18.833,0,0,0,1.705,1.478c1.447,1.159,2.94,2.357,2.94,3.8v8.714a.152.152,0,0,1-.152.152H12.917a1.061,1.061,0,1,0,0,2.122H24.041a1.061,1.061,0,1,0,0-2.122H19.715a.152.152,0,0,1-.152-.152V23.352c0-1.447,1.493-2.645,2.94-3.8a19.93,19.93,0,0,0,1.705-1.478C26.36,15.865,10.6,15.865,12.751,18.07Z"
+                transform="translate(-7.727 7.745)"
+                fill="#fff"
+              />
+              <g id="Wine_Bullet" data-name="Wine Bullet">
+                <g id="Group_13" data-name="Group 13">
+                  <path
+                    id="Icon_ionic-ios-wine-3"
+                    data-name="Icon ionic-ios-wine"
+                    d="M15.133,2.453H26.745a2.023,2.023,0,0,1,1.894,1.458c.919,2.66,3.052,9.323,3.052,13.833v.074a11.216,11.216,0,0,1-2.944,8.368A26.729,26.729,0,0,1,26.509,28.3c-.82.715-3.354.865-5.335.865-1.129,0-4.884-.062-5.8-.864l-.115-.1a23.891,23.891,0,0,1-2.126-2.016,11.214,11.214,0,0,1-2.942-8.367v-.505c0-3.917,1.906-10.078,3.043-13.4A2.051,2.051,0,0,1,15.133,2.453ZM28.747,13.729c.309-4.147-1.729-9.778-2-9.778-11.89,0-12.12.182-12.227.487-.887,2.594-1.7,10.289-.969,10.933.2.146.4,2.226,4.9,1.942,2.944-.013,3.367-2.751,5.354-2.626C25.7,14.806,27.624,16.45,28.747,13.729Z"
+                    transform="translate(-10.188 -2.453)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+          <span class="icon-text">Wine</span>
+        </div>
+
+        <div class="bar">
+          <svg
+            id="Bar_Icon"
+            data-name="Bar Icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="67.345"
+            height="88.193"
+            viewBox="0 0 67.345 88.193"
+          >
+            <path
+              id="Icon_ionic-ios-wine"
+              data-name="Icon ionic-ios-wine"
+              d="M57.275,2.979A4.428,4.428,0,0,0,53.1,0H14.246a4.469,4.469,0,0,0-4.209,2.979C7.026,11.073,0,31.179,0,43.385v1.554c0,6.216,0,14.7,9.2,24.121a80.468,80.468,0,0,0,7.285,6.314c6.184,4.954,14.2,11,17.728,12.529,1.063,2.082,10.473-7.576,16.657-12.529a85.155,85.155,0,0,0,7.285-6.314c9.2-9.422,9.2-17.9,9.2-24.121V43.385C67.345,31.244,60.319,11.073,57.275,2.979Z"
+              transform="translate(0 0)"
+              fill="#cda334"
+            />
+            <g
+              id="Icon_ionic-ios-beer"
+              data-name="Icon ionic-ios-beer"
+              transform="translate(19.191 27.204)"
+            >
+              <path
+                id="Path_45"
+                data-name="Path 45"
+                d="M8.12,12.055a1.806,1.806,0,0,1,1.81-1.81h17.31a1.7,1.7,0,0,1,1.018.332h0a.227.227,0,0,0,.362-.189c-.008-.43-.015-.7-.015-1.629A2.906,2.906,0,0,0,25.733,5.87h-.015a1.132,1.132,0,0,1-.973-.7A4.705,4.705,0,0,0,20.49,2.257a4.052,4.052,0,0,0-3.319,1.38,1.025,1.025,0,0,1-1.312.181,3.6,3.6,0,0,0-1.923-.536,3.542,3.542,0,0,0-2.7,1.312,1.311,1.311,0,0,1-1.252.445A9.2,9.2,0,0,0,8.271,4.9C6.386,4.9,4.5,6.157,4.5,8.1v.3c0,2.172,1.207,1.727,1.207,3.153v3.832c0,1.011-.845,1.456-.845,2.655a1.316,1.316,0,0,0,1.267,1.267H8.12Z"
+                transform="translate(-4.5 -2.257)"
+                fill="#fff"
+              />
+              <path
+                id="Path_46"
+                data-name="Path 46"
+                d="M28.624,31.781H7.806a1.056,1.056,0,0,0,0,2.112H28.624a1.056,1.056,0,0,0,0-2.112Z"
+                transform="translate(-4.336 -0.11)"
+                fill="#fff"
+              />
+              <path
+                id="Path_47"
+                data-name="Path 47"
+                d="M29.534,13.845H27.121v-1.81a1.21,1.21,0,0,0-1.207-1.207H10.225a1.21,1.21,0,0,0-1.207,1.207V28.161a10.951,10.951,0,0,1-.241,2.27l-.008.038a1.426,1.426,0,0,0,.211,1.018,1.385,1.385,0,0,0,1.154.618H26.268a1.249,1.249,0,0,0,.837-.309A1.235,1.235,0,0,0,27.5,30.59a9.573,9.573,0,0,1-.362-2.255h2.4a3.631,3.631,0,0,0,3.62-3.62V17.473A3.633,3.633,0,0,0,29.534,13.845Zm1.509,10.861a1.513,1.513,0,0,1-1.509,1.509H27.121V15.957h2.414a1.513,1.513,0,0,1,1.509,1.509Z"
+                transform="translate(-4.191 -1.634)"
+                fill="#fff"
+              />
+            </g>
+          </svg>
+          <span class="icon-text">Bar</span>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Al Calmiere -->
+
+    <div class="AlCal" id="alcal">
+      <div class="heading01">
+        <h2><span class="al-calmiere">Al Calmiere</span></h2>
+      </div>
+      <div class="par-water-cont">
+        <div class="p1">
+          Al Calmiere is a family-run secret to many, hidden in the centre of
+          the city with some of the best local food around.
+        </div>
+        <div class="watermark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="580"
+            height="230"
+            viewBox="0 0 699 277"
+          >
+            <g id="Alcal-Watermark" transform="translate(-790 -1261)">
+              <text
+                id="Al_Calmiere"
+                data-name="Al Calmiere"
+                transform="translate(853 1382)"
+                fill="none"
+                stroke="#707070"
+                stroke-width="1"
+                font-size="119"
+                font-family="Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Al Calmiere</tspan>
+              </text>
+              <text
+                id="Al_Calmiere-2"
+                data-name="Al Calmiere"
+                transform="translate(853 1504)"
+                fill="none"
+                stroke="#707070"
+                stroke-width="1"
+                font-size="119"
+                font-family="Lora-Regular, Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Al Calmiere</tspan>
+              </text>
+              <text
+                id="Al_Calmiere-3"
+                data-name="Al Calmiere"
+                transform="translate(791 1440)"
+                fill="#7c7c7c"
+                font-size="119"
+                font-family="Lora-Regular, Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Al Calmiere</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-2">
+        <div class="img-alcal">
+          <img
+            src="/assets/img/AlCal/family.png"
+            alt="Photo of the Family who run the restaurant"
+          />
+        </div>
+        <div class="alcal-icon-cont">
+          <svg
+            id="Food_Icon"
+            data-name="Food Icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="59.5"
+            height="77.92"
+            viewBox="0 0 59.5 77.92"
+          >
+            <path
+              id="Icon_ionic-ios-wine"
+              data-name="Icon ionic-ios-wine"
+              d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.094,71.094,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.236,75.236,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+              transform="translate(0 0)"
+              fill="#cda334"
+            />
+            <g
+              id="Icon_metro-spoon-fork"
+              data-name="Icon metro-spoon-fork"
+              transform="translate(16.467 23.477)"
+            >
+              <path
+                id="Icon_metro-spoon-fork-2"
+                data-name="Icon metro-spoon-fork"
+                d="M9.438,1.928c-3.26,0-5.9,3.033-5.9,6.773a6.652,6.652,0,0,0,4.541,6.592L7.1,30.961a1.815,1.815,0,0,0,1.847,1.932H9.93a1.815,1.815,0,0,0,1.847-1.932L10.8,15.294A6.652,6.652,0,0,0,15.341,8.7C15.341,4.961,12.7,1.928,9.438,1.928Zm19.842,0L27.64,11.6H26.41l-.82-9.676h-.82l-.82,9.676h-1.23l-1.64-9.676h-.82V14.507a.976.976,0,0,0,.984.968h2.562l-.966,15.486a1.815,1.815,0,0,0,1.847,1.932h.984a1.815,1.815,0,0,0,1.847-1.932l-.966-15.486h2.562a.976.976,0,0,0,.984-.968V1.928Z"
+                transform="translate(-3.535 -1.928)"
+                fill="#fff"
+              />
+            </g>
+          </svg>
+          <svg
+            id="Wine_Icon"
+            data-name="Wine Icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="59.5"
+            height="77.92"
+            viewBox="0 0 59.5 77.92"
+          >
+            <path
+              id="Icon_ionic-ios-wine00"
+              data-name="Icon ionic-ios-wine"
+              d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+              transform="translate(0 0)"
+              fill="#cda334"
+            />
+            <g
+              id="Wine_Icon-2"
+              data-name="Wine Icon"
+              transform="translate(20.26 20.387)"
+            >
+              <path
+                id="Icon_ionic-ios-wine-2"
+                data-name="Icon ionic-ios-wine"
+                d="M12.643,17.876a16.623,16.623,0,0,0,1.5,1.3c1.278,1.023,2.6,2.08,2.6,3.358V30.23a.134.134,0,0,1-.134.134H12.79a.937.937,0,1,0,0,1.873h9.819a.937.937,0,1,0,0-1.873H18.79a.134.134,0,0,1-.134-.134V22.538c0-1.278,1.318-2.334,2.6-3.358a17.592,17.592,0,0,0,1.5-1.3C24.656,15.93,10.743,15.93,12.643,17.876Z"
+                transform="translate(-8.209 4.91)"
+                fill="#fff"
+              />
+              <g id="Wine_Bullet" data-name="Wine Bullet">
+                <g id="Group_13" data-name="Group 13">
+                  <path
+                    id="Icon_ionic-ios-wine-3"
+                    data-name="Icon ionic-ios-wine"
+                    d="M14.553,2.453H24.8A1.786,1.786,0,0,1,26.474,3.74c.811,2.348,2.694,8.229,2.694,12.21v.065a9.9,9.9,0,0,1-2.6,7.386,23.593,23.593,0,0,1-1.976,1.866c-.724.631-2.96.763-4.709.763-1,0-4.311-.055-5.122-.762l-.1-.089A21.088,21.088,0,0,1,12.785,23.4a9.9,9.9,0,0,1-2.6-7.385v-.446c0-3.457,1.683-8.9,2.686-11.83A1.81,1.81,0,0,1,14.553,2.453Zm12.016,9.953c.273-3.66-1.526-8.631-1.767-8.631-10.495,0-10.7.161-10.792.43-.783,2.29-1.5,9.082-.855,9.65.178.129.349,1.965,4.322,1.714,2.6-.012,2.972-2.428,4.726-2.318C23.879,13.357,25.578,14.808,26.569,12.406Z"
+                    transform="translate(-10.188 -2.453)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="59.5"
+            height="77.92"
+            viewBox="0 0 59.5 77.92"
+          >
+            <g id="Euro-Icon" transform="translate(-1138.395 -2134.031)">
+              <path
+                id="Icon_ionic-ios-wine01"
+                data-name="Icon ionic-ios-wine"
+                d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                transform="translate(1138.395 2134.031)"
+                fill="#cda334"
+              />
+              <g
+                id="Euro_Empty"
+                data-name="Euro Empty"
+                transform="translate(1156.118 2156.338)"
+              >
+                <path
+                  id="Icon_awesome-euro-sign"
+                  data-name="Icon awesome-euro-sign"
+                  d="M21.794,29.028a.841.841,0,0,0-1.012-.657,14.736,14.736,0,0,1-3.186.38,9.03,9.03,0,0,1-8.52-5.994h7.975a.842.842,0,0,0,.821-.657l.447-1.989a.842.842,0,0,0-.821-1.026H8.082a15.142,15.142,0,0,1,.01-2.963H18.374a.842.842,0,0,0,.822-.662l.457-2.087a.842.842,0,0,0-.822-1.022h-9.7a8.81,8.81,0,0,1,8.25-5.263,13.739,13.739,0,0,1,2.655.291.842.842,0,0,0,.982-.6l.841-3.112a.841.841,0,0,0-.654-1.046,20.427,20.427,0,0,0-3.7-.365,14.99,14.99,0,0,0-14.348,10.1H.842A.842.842,0,0,0,0,13.192v2.087a.842.842,0,0,0,.842.842H2.355a20.823,20.823,0,0,0-.013,2.963H.842A.842.842,0,0,0,0,19.926v1.989a.842.842,0,0,0,.842.842H2.954A14.694,14.694,0,0,0,17.51,33.674a17.5,17.5,0,0,0,4.286-.546.842.842,0,0,0,.616-.979l-.619-3.121Z"
+                  transform="translate(0 -2.25)"
+                  fill="#fff"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="alcal-icon-text">
+          <span>Veronese Restaurant</span>
+          <span>Local Wines</span>
+          <span>Reasonable Prices</span>
+        </div>
+      </div>
+      <div class="history-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere history">The History</span></h2>
+        </div>
+        <div class="par-water-cont">
+          <div class="watermark-history">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="580"
+              height="230"
+              viewBox="0 0 699 277"
+            >
+              <g id="Alcal-Watermark01" transform="translate(-790 -1261)">
+                <text
+                  id="Al_Calmiere01"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1382)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere02"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1504)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere03"
+                  data-name="Al Calmiere"
+                  transform="translate(790 1440)"
+                  fill="#A02F2F"
+                  font-size="119"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+          <div class="p2">
+            Al Calmiere - A 33-year history The restaurant was born as an inn
+            for wine pouring in 1919, therefore it represents one of the
+            historic places of Verona.
+          </div>
+        </div>
+        <div class="history-img-cont">
+          <div class="p3">
+            In 1987 Pietro and Morena thought that in Verona, especially in
+            Piazza San Zeno, there was a lack of a place that could offer
+            cuisine in the Veronese tradition: thus the new Al Calmiere was
+            born, renovated and regenerated in the kitchen and in every detail.
+          </div>
+          <img
+            src="/assets/img/AlCal/History.jpg"
+            alt="Old Black and white photo of the restaurant's outdoor seating"
+          />
+        </div>
+        <div class="history-img-cont">
+          <img
+            src="/assets/img/AlCal/alcal_fuori.jpg"
+            alt="Recent photo of the new outdoor seating"
+          />
+          <div class="p3">
+            The large fireplace was built in the great room and the proposal
+            was: trolley of boiled meats, first courses of homemade pasta and
+            grilled meats.
+          </div>
+        </div>
+      </div>
+      <div class="gallery home" id="gallery">
+        <div class="heading03">
+          <h2>
+            <span class="al-calmiere gallery-head">Gallery</span>
+          </h2>
+        </div>
+        <div class="gallery-cont">
+          <div class="gallery-img-cont">
+            <div class="video-wrap">
+              <video
+                autoplay
+                muted
+                playsinline
+                loop
+                controls
+                poster="assets/img/AlCal/food01.jpeg"
+              >
+                <source src="assets/img/AlCal/alcalvid.mp4" type="video/mp4" />
+              </video>
+              <!-- <img src="/assets/img/AlCal/IMG-20221212-WA0015.jpeg" alt="" /> -->
+            </div>
+          </div>
+
+          <div class="gallery-watermark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="261"
+              height="388"
+              viewBox="0 0 326 484"
+            >
+              <g id="gallery-watermark" transform="translate(-980 -4918)">
+                <text
+                  id="Gallery"
+                  transform="translate(1126 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.3)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-2"
+                  data-name="Gallery"
+                  transform="translate(1265 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.31)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-3"
+                  data-name="Gallery"
+                  transform="translate(1193 5401) rotate(-90)"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere contact-head">Contact</span></h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="hours">
+            <table>
+              <tr>
+                <th></th>
+                <th><h3>Lunch</h3></th>
+                <th><h3>Dinner</h3></th>
+              </tr>
+              <tr>
+                <th><h3>Monday</h3></th>
+                <th>Closed</th>
+                <th>Closed</th>
+              </tr>
+              <tr>
+                <th><h3>Tuesday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>19:30 - 22:30</th>
+              </tr>
+              <tr>
+                <th><h3>Wednesday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>19:30 - 22:30</th>
+              </tr>
+              <tr>
+                <th><h3>Thursday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>19:30 - 22:30</th>
+              </tr>
+              <tr>
+                <th><h3>Friday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>19:30 - 22:30</th>
+              </tr>
+              <tr>
+                <th><h3>Saturday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>19:30 - 22:30</th>
+              </tr>
+              <tr>
+                <th><h3>Sunday</h3></th>
+                <th>12:30 - 14:30</th>
+                <th>Closed</th>
+              </tr>
+            </table>
+            <div class="contact-text">
+              <div class="phone">
+                <a href="tel:+045 803 0765">
+                  <h3>Phone:</h3>
+                  045 803 0765</a
+                >
+              </div>
+              <div class="address">
+                <h3>Address:</h3>
+                Piazza San Zeno 10, Verona
+              </div>
+            </div>
+            <div class="buttonwrapper">
+              <div class="button2">
+                <a href="https://www.alcalmiere.com/">Menu</a>
+              </div>
+              <div class="button1">
+                <a
+                  href="https://www.alcalmiere.com/wp-content/uploads/2022/10/Ristorante_AlCalmiere_Menu_Ottobre_22.pdf"
+                  >Visit official website</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="map01">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    class="gmap_iframe"
+                    width="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=493&amp;height=535&amp;hl=en&amp;q=al calmiere&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ></iframe
+                  ><a href="https://embedmapgenerator.com"
+                    >google maps code generator</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 100%;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 100%;
+                  }
+                  .gmap_iframe {
+                    height: 100% !important;
+                  }
+                </style>
+              </div>
+            </div>
+
+            <div class="alcal-some">
+              <a href="https://www.facebook.com/ristorantealcalmiere/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/ristorantealcalmiere/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://api.whatsapp.com/send/?phone=390458030765&text=Ciao%2C+vorrei+ordinare...&type=phone_number&app_absent=0"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Baraldi -->
+
+    <div class="baraldi-wrapper" id="baraldi">
+      <div class="heading01 bhead">
+        <h2>
+          <span class="al-calmiere baraldi-head">Bottiglieria Baraldi</span>
+        </h2>
+      </div>
+      <div class="par-water-cont">
+        <div class="p1">
+          “An incredibly fun wine tasting experience run by the friendliest guy
+          in town - Bruno!” Maybe you could come home with a few bottles?
+          Baraldi is THE only wine shop.
+        </div>
+        <div class="watermark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="580"
+            height="230"
+            viewBox="0 0 699 277"
+          >
+            <g id="Alcal-Watermark00" transform="translate(-790 -1261)">
+              <text
+                id="Bott00"
+                data-name="Al Calmiere"
+                transform="translate(853 1382)"
+                fill="none"
+                stroke="#707070"
+                stroke-width="1"
+                font-size="119"
+                font-family="Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Bottiglieria</tspan>
+              </text>
+              <text
+                id="Bott01"
+                data-name="Al Calmiere"
+                transform="translate(853 1504)"
+                fill="none"
+                stroke="#707070"
+                stroke-width="1"
+                font-size="119"
+                font-family="Lora-Regular, Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Bottiglieria</tspan>
+              </text>
+              <text
+                id="Baraldi"
+                data-name="Al Calmiere"
+                transform="translate(900 1440)"
+                fill="#7c7c7c"
+                font-size="119"
+                font-family="Lora-Regular, Lora"
+                opacity="0.441"
+              >
+                <tspan x="0" y="0">Baraldi</tspan>
+              </text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-bb">
+        <div class="bb-icon-cont">
+          <div class="wine-shop icontext">
+            <svg
+              id="Wine_Icon00"
+              data-name="Wine Icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="59.5"
+              height="77.92"
+              viewBox="0 0 59.5 77.92"
+            >
+              <path
+                id="Icon_ionic-ios-wine02"
+                data-name="Icon ionic-ios-wine"
+                d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                transform="translate(0 0)"
+                fill="#cda334"
+              />
+              <g
+                id="Wine_Icon002"
+                data-name="Wine Icon"
+                transform="translate(20.26 20.387)"
+              >
+                <path
+                  id="Icon_ionic-ios-wine-200"
+                  data-name="Icon ionic-ios-wine"
+                  d="M12.643,17.876a16.623,16.623,0,0,0,1.5,1.3c1.278,1.023,2.6,2.08,2.6,3.358V30.23a.134.134,0,0,1-.134.134H12.79a.937.937,0,1,0,0,1.873h9.819a.937.937,0,1,0,0-1.873H18.79a.134.134,0,0,1-.134-.134V22.538c0-1.278,1.318-2.334,2.6-3.358a17.592,17.592,0,0,0,1.5-1.3C24.656,15.93,10.743,15.93,12.643,17.876Z"
+                  transform="translate(-8.209 4.91)"
+                  fill="#fff"
+                />
+                <g id="Wine_Bullet1" data-name="Wine Bullet">
+                  <g id="Group_131" data-name="Group 13">
+                    <path
+                      id="Icon_ionic-ios-wine-31"
+                      data-name="Icon ionic-ios-wine"
+                      d="M14.553,2.453H24.8A1.786,1.786,0,0,1,26.474,3.74c.811,2.348,2.694,8.229,2.694,12.21v.065a9.9,9.9,0,0,1-2.6,7.386,23.593,23.593,0,0,1-1.976,1.866c-.724.631-2.96.763-4.709.763-1,0-4.311-.055-5.122-.762l-.1-.089A21.088,21.088,0,0,1,12.785,23.4a9.9,9.9,0,0,1-2.6-7.385v-.446c0-3.457,1.683-8.9,2.686-11.83A1.81,1.81,0,0,1,14.553,2.453Zm12.016,9.953c.273-3.66-1.526-8.631-1.767-8.631-10.495,0-10.7.161-10.792.43-.783,2.29-1.5,9.082-.855,9.65.178.129.349,1.965,4.322,1.714,2.6-.012,2.972-2.428,4.726-2.318C23.879,13.357,25.578,14.808,26.569,12.406Z"
+                      transform="translate(-10.188 -2.453)"
+                      fill="#fff"
+                    />
+                  </g>
+                </g>
+              </g></svg
+            ><span>Wine Shop</span>
+          </div>
+          <div class="bb-food icontext">
+            <svg
+              id="Food_Icon1"
+              data-name="Food Icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="59.5"
+              height="77.92"
+              viewBox="0 0 59.5 77.92"
+            >
+              <path
+                id="Icon_ionic-ios-wine1"
+                data-name="Icon ionic-ios-wine"
+                d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.094,71.094,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.236,75.236,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                transform="translate(0 0)"
+                fill="#cda334"
+              />
+              <g
+                id="Icon_metro-spoon-fork1"
+                data-name="Icon metro-spoon-fork"
+                transform="translate(16.467 23.477)"
+              >
+                <path
+                  id="Icon_metro-spoon-fork-22"
+                  data-name="Icon metro-spoon-fork"
+                  d="M9.438,1.928c-3.26,0-5.9,3.033-5.9,6.773a6.652,6.652,0,0,0,4.541,6.592L7.1,30.961a1.815,1.815,0,0,0,1.847,1.932H9.93a1.815,1.815,0,0,0,1.847-1.932L10.8,15.294A6.652,6.652,0,0,0,15.341,8.7C15.341,4.961,12.7,1.928,9.438,1.928Zm19.842,0L27.64,11.6H26.41l-.82-9.676h-.82l-.82,9.676h-1.23l-1.64-9.676h-.82V14.507a.976.976,0,0,0,.984.968h2.562l-.966,15.486a1.815,1.815,0,0,0,1.847,1.932h.984a1.815,1.815,0,0,0,1.847-1.932l-.966-15.486h2.562a.976.976,0,0,0,.984-.968V1.928Z"
+                  transform="translate(-3.535 -1.928)"
+                  fill="#fff"
+                />
+              </g></svg
+            ><span>Veronese Delicacies</span>
+          </div>
+          <div class="bb-price icontext">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="59.5"
+              height="77.92"
+              viewBox="0 0 59.5 77.92"
+            >
+              <g id="Euro-Icon1" transform="translate(-1138.395 -2134.031)">
+                <path
+                  id="Icon_ionic-ios-wine12"
+                  data-name="Icon ionic-ios-wine"
+                  d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                  transform="translate(1138.395 2134.031)"
+                  fill="#cda334"
+                />
+                <g
+                  id="Euro_Empty1"
+                  data-name="Euro Empty"
+                  transform="translate(1156.118 2156.338)"
+                >
+                  <path
+                    id="Icon_awesome-euro-sign1"
+                    data-name="Icon awesome-euro-sign"
+                    d="M21.794,29.028a.841.841,0,0,0-1.012-.657,14.736,14.736,0,0,1-3.186.38,9.03,9.03,0,0,1-8.52-5.994h7.975a.842.842,0,0,0,.821-.657l.447-1.989a.842.842,0,0,0-.821-1.026H8.082a15.142,15.142,0,0,1,.01-2.963H18.374a.842.842,0,0,0,.822-.662l.457-2.087a.842.842,0,0,0-.822-1.022h-9.7a8.81,8.81,0,0,1,8.25-5.263,13.739,13.739,0,0,1,2.655.291.842.842,0,0,0,.982-.6l.841-3.112a.841.841,0,0,0-.654-1.046,20.427,20.427,0,0,0-3.7-.365,14.99,14.99,0,0,0-14.348,10.1H.842A.842.842,0,0,0,0,13.192v2.087a.842.842,0,0,0,.842.842H2.355a20.823,20.823,0,0,0-.013,2.963H.842A.842.842,0,0,0,0,19.926v1.989a.842.842,0,0,0,.842.842H2.954A14.694,14.694,0,0,0,17.51,33.674a17.5,17.5,0,0,0,4.286-.546.842.842,0,0,0,.616-.979l-.619-3.121Z"
+                    transform="translate(0 -2.25)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </svg>
+            <span>Great Price Range</span>
+          </div>
+        </div>
+        <!-- <div class="bb-icon-text">
+          <span>Wine Shop</span>
+          <span>Veronese Delicacies</span>
+          <span>Great Price Range</span>
+        </div> -->
+        <div class="img-bb">
+          <img
+            src="/assets/img/Baraldi/Enoteca_Baraldi.jpg"
+            alt="Photo of the wine shop"
+          />
+        </div>
+      </div>
+      <div class="history-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere history">The History</span></h2>
+        </div>
+        <div class="par-water-cont">
+          <div class="watermark-history">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="580"
+              height="230"
+              viewBox="0 0 699 277"
+            >
+              <g id="Alcal-Watermark1" transform="translate(-790 -1261)">
+                <text
+                  id="Al_Calmiere1"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1382)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere-22"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1504)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere-33"
+                  data-name="Al Calmiere"
+                  transform="translate(790 1440)"
+                  fill="#A02F2F"
+                  font-size="119"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+          <div class="p2">
+            Baraldi - The surname of a Veronese family that decided to open up a
+            small wineshop in a little neighbourhood in Verona, now have the
+            best shop around.
+          </div>
+        </div>
+        <div class="history-img-cont">
+          <div class="p3">
+            Franco and Nadia Baraldi decided to sell their wine shop to then
+            open up something a bit bigger which turned out to be a Bistrot/Wine
+            shop. The whole family was involved - especially their son Bruno
+            Baraldi.
+          </div>
+          <div class="img-caption-cont">
+            <img
+              src="/assets/img/Baraldi/bottiglieria-baraldi-Old.jpg"
+              alt="Photo of the old enoteca baraldi (2018)"
+            />
+            <p class="img-caption">The old Enoteca Baraldi (2018)</p>
+          </div>
+        </div>
+        <div class="history-img-cont">
+          <div class="img-caption-cont dentro">
+            <img
+              src="/assets/img/Baraldi/Dentro.jpg"
+              alt="Recent photo of the inside of the new shop"
+            />
+            <p class="img-caption">The new Enoteca Baraldi (2022)</p>
+          </div>
+          <div class="p3">
+            Unfortunately due to the pandemic, the Enoteca had to close down,
+            but Bruno has gone on to open up 2 new wine shops with a similar
+            vibe but more focused on the Veronese culture and wine.
+          </div>
+        </div>
+      </div>
+      <div class="gallery home" id="gallery1">
+        <div class="heading03">
+          <h2>
+            <span class="al-calmiere gallery-head">Gallery</span>
+          </h2>
+        </div>
+        <div class="gallery-cont">
+          <div class="gallery-img-cont">
+            <!-- <div class="pic-ctn">
+              <img src="assets/img/Baraldi/001.jpg" alt="" class="pic" />
+              <img src="assets/img/Baraldi/002.jpg" alt="" class="pic" />
+              <img src="assets/img/Baraldi/Tasting.jpg" alt="" class="pic" />
+            </div> -->
+            <div class="gallery-wrapper">
+              <div class="carousel-box">
+                <div class="main-navigation">
+                  <button
+                    id="left-button"
+                    class="navigation-arrows"
+                    onclick="changeSlide('move-left', -1)"
+                  >
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <button
+                    id="right-button"
+                    class="navigation-arrows"
+                    onclick="changeSlide('move-right', 1)"
+                  >
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
+                </div>
+                <div id="navigation-dots">
+                  <i
+                    class="fa-solid fa-circle dot"
+                    id="active-dot"
+                    onclick="changeSlide('jump-to', 0)"
+                  ></i>
+                </div>
+                <article class="carousel-slide" id="article1">
+                  <img src="assets/img/Baraldi/001.jpg" alt="" class="pic" />
+                </article>
+                <article class="carousel-slide" id="article2">
+                  <img src="assets/img/Baraldi/002.jpg" alt="" class="pic" />
+                </article>
+                <article class="carousel-slide" id="article3">
+                  <img
+                    src="assets/img/Baraldi/Tasting.jpg"
+                    alt=""
+                    class="pic"
+                  />
+                </article>
+              </div>
+            </div>
+            <!-- <img src="/assets/img/Baraldi/Tasting.jpg" alt="" /> -->
+          </div>
+          <div class="gallery-watermark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="261"
+              height="388"
+              viewBox="0 0 326 484"
+            >
+              <g id="gallery-watermark1" transform="translate(-980 -4918)">
+                <text
+                  id="Gallery1"
+                  transform="translate(1126 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.3)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-22"
+                  data-name="Gallery"
+                  transform="translate(1265 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.31)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-33"
+                  data-name="Gallery"
+                  transform="translate(1193 5401) rotate(-90)"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere contact-head">Contact</span></h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="hours">
+            <table>
+              <tr>
+                <th><h3>Monday</h3></th>
+                <th>Closed</th>
+                <th>15:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Tuesday</h3></th>
+                <th>09:30 - 13:00</th>
+                <th>15:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Wednesday</h3></th>
+                <th>09:30 - 13:00</th>
+                <th>15:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Thursday</h3></th>
+                <th>09:30 - 13:00</th>
+                <th>15:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Friday</h3></th>
+                <th>09:30 - 13:00</th>
+                <th>15:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Saturday</h3></th>
+                <th>10:00 - 13:00</th>
+                <th>14:00 - 19:00</th>
+              </tr>
+              <tr>
+                <th><h3>Sunday</h3></th>
+                <th>Closed</th>
+                <th>12:00 - 18:00</th>
+              </tr>
+            </table>
+            <div class="contact-text">
+              <div class="phone">
+                <a href="tel:+045 556393">
+                  <h3>Phone:</h3>
+                  045 556393</a
+                >
+              </div>
+              <div class="address">
+                <h3>Address:</h3>
+                Via Roma 10, Verona
+              </div>
+            </div>
+            <div class="buttonwrapper">
+              <div class="button2">
+                <a href="mailto: info@baccoverona.com">Book a tasting</a>
+              </div>
+              <div class="button1">
+                <a href="https://winebar-bottiglieria-baraldi.business.site/"
+                  >Official website</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="map01">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    class="gmap_iframe"
+                    width="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=493&amp;height=535&amp;hl=en&amp;q=bottiglieria baraldi&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ></iframe
+                  ><a href="https://embedmapgenerator.com"
+                    >google maps code generator</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 535px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 535px;
+                  }
+                  .gmap_iframe {
+                    height: 535px !important;
+                  }
+                </style>
+              </div>
+            </div>
+
+            <div class="alcal-some">
+              <a href="https://www.facebook.com/BottiglieriaBaraldi/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/baraldivr/?hl=en"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- La Mandorla -->
+
+    <div class="laman-wrapper" id="laman">
+      <div class="heading01">
+        <h2>
+          <span class="al-calmiere laman-head">Osteria La Mandorla</span>
+        </h2>
+      </div>
+      <div class="par-water-cont">
+        <div class="p1">
+          Excellent selection of wines, craft beers and cicchetti at fair
+          prices. Also excellent for an aperitif and after dinner.
+        </div>
+        <div class="watermark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="756"
+            height="277"
+            viewBox="0 0 756 277"
+          >
+            <text
+              id="La_Mandorla"
+              data-name="La Mandorla"
+              transform="translate(62 121)"
+              fill="none"
+              stroke="#707070"
+              stroke-width="1"
+              font-size="119"
+              font-family="Lora-Regular, Lora"
+              opacity="0.441"
+            >
+              <tspan x="0" y="0">La Mandorla</tspan>
+            </text>
+            <text
+              id="La_Mandorla-2"
+              data-name="La Mandorla"
+              transform="translate(62 243)"
+              fill="none"
+              stroke="#707070"
+              stroke-width="1"
+              font-size="119"
+              font-family="Lora-Regular, Lora"
+              opacity="0.441"
+            >
+              <tspan x="0" y="0">La Mandorla</tspan>
+            </text>
+            <text
+              id="La_Mandorla-3"
+              data-name="La Mandorla"
+              transform="translate(0 179)"
+              fill="#7c7c7c"
+              font-size="119"
+              font-family="Lora-Regular, Lora"
+              opacity="0.441"
+            >
+              <tspan x="0" y="0">La Mandorla</tspan>
+            </text>
+          </svg>
+        </div>
+      </div>
+
+      <div class="container-laman">
+        <div class="laman-icon-cont">
+          <div class="laman-bar icontext">
+            <svg
+              id="Group_90"
+              data-name="Group 90"
+              xmlns="http://www.w3.org/2000/svg"
+              width="60"
+              height="77.2"
+              viewBox="0 0 60 77.2"
+            >
+              <path
+                id="Icon_ionic-ios-wine31"
+                data-name="Icon ionic-ios-wine"
+                d="M51.029,2.607A3.941,3.941,0,0,0,47.308,0H12.692a3.978,3.978,0,0,0-3.75,2.607C6.26,9.693,0,27.293,0,37.978v1.36C0,44.78,0,52.205,8.192,60.453a71.344,71.344,0,0,0,6.49,5.527c5.51,4.336,12.655,9.631,15.794,10.968.947,1.822,9.331-6.631,14.84-10.968a75.5,75.5,0,0,0,6.49-5.527C60,52.205,60,44.78,60,39.338v-1.36C60,27.35,53.74,9.693,51.029,2.607Z"
+                transform="translate(0 0)"
+                fill="#cda334"
+              />
+              <g
+                id="Icon_ionic-ios-beer"
+                data-name="Icon ionic-ios-beer"
+                transform="translate(17.323 23.814)"
+              >
+                <path
+                  id="Path_45"
+                  data-name="Path 45"
+                  d="M7.669,10.834A1.581,1.581,0,0,1,9.254,9.249H24.407a1.485,1.485,0,0,1,.891.291h0a.2.2,0,0,0,.317-.165C25.608,9,25.6,8.76,25.6,7.948A2.543,2.543,0,0,0,23.086,5.42h-.013a.991.991,0,0,1-.852-.614A4.119,4.119,0,0,0,18.5,2.257a3.547,3.547,0,0,0-2.905,1.208.9.9,0,0,1-1.149.158,3.148,3.148,0,0,0-1.684-.469A3.1,3.1,0,0,0,10.4,4.3a1.148,1.148,0,0,1-1.1.39,8.056,8.056,0,0,0-1.5-.119,3.081,3.081,0,0,0-3.3,2.8v.264c0,1.9,1.056,1.512,1.056,2.76v3.354c0,.885-.739,1.274-.739,2.324a1.152,1.152,0,0,0,1.109,1.109H7.669Z"
+                  transform="translate(-4.5 -2.257)"
+                  fill="#fff"
+                />
+                <path
+                  id="Path_46"
+                  data-name="Path 46"
+                  d="M25.9,31.781H7.674a.924.924,0,0,0,0,1.849H25.9a.924.924,0,0,0,0-1.849Z"
+                  transform="translate(-4.637 -4.057)"
+                  fill="#fff"
+                />
+                <path
+                  id="Path_47"
+                  data-name="Path 47"
+                  d="M26.944,13.469H24.831V11.885a1.06,1.06,0,0,0-1.056-1.056H10.041a1.06,1.06,0,0,0-1.056,1.056V26a9.586,9.586,0,0,1-.211,1.987l-.007.033a1.248,1.248,0,0,0,.185.891,1.212,1.212,0,0,0,1.01.541H24.085a1.094,1.094,0,0,0,.733-.271,1.081,1.081,0,0,0,.343-1.056,8.379,8.379,0,0,1-.317-1.974h2.1a3.179,3.179,0,0,0,3.169-3.169V16.645A3.18,3.18,0,0,0,26.944,13.469Zm1.32,9.508a1.324,1.324,0,0,1-1.32,1.32H24.831V15.318h2.113a1.324,1.324,0,0,1,1.32,1.32Z"
+                  transform="translate(-4.759 -2.78)"
+                  fill="#fff"
+                />
+              </g>
+            </svg>
+
+            <span>Local Bar</span>
+          </div>
+
+          <div class="laman-wine icontext">
+            <svg
+              id="Wine_Icon12"
+              data-name="Wine Icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="59.5"
+              height="77.92"
+              viewBox="0 0 59.5 77.92"
+            >
+              <path
+                id="Icon_ionic-ios-wine121"
+                data-name="Icon ionic-ios-wine"
+                d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                transform="translate(0 0)"
+                fill="#cda334"
+              />
+              <g
+                id="Wine_Icon-22"
+                data-name="Wine Icon"
+                transform="translate(20.26 20.387)"
+              >
+                <path
+                  id="Icon_ionic-ios-wine-22"
+                  data-name="Icon ionic-ios-wine"
+                  d="M12.643,17.876a16.623,16.623,0,0,0,1.5,1.3c1.278,1.023,2.6,2.08,2.6,3.358V30.23a.134.134,0,0,1-.134.134H12.79a.937.937,0,1,0,0,1.873h9.819a.937.937,0,1,0,0-1.873H18.79a.134.134,0,0,1-.134-.134V22.538c0-1.278,1.318-2.334,2.6-3.358a17.592,17.592,0,0,0,1.5-1.3C24.656,15.93,10.743,15.93,12.643,17.876Z"
+                  transform="translate(-8.209 4.91)"
+                  fill="#fff"
+                />
+                <g id="Wine_Bullet2" data-name="Wine Bullet">
+                  <g id="Group_132" data-name="Group 13">
+                    <path
+                      id="Icon_ionic-ios-wine-32"
+                      data-name="Icon ionic-ios-wine"
+                      d="M14.553,2.453H24.8A1.786,1.786,0,0,1,26.474,3.74c.811,2.348,2.694,8.229,2.694,12.21v.065a9.9,9.9,0,0,1-2.6,7.386,23.593,23.593,0,0,1-1.976,1.866c-.724.631-2.96.763-4.709.763-1,0-4.311-.055-5.122-.762l-.1-.089A21.088,21.088,0,0,1,12.785,23.4a9.9,9.9,0,0,1-2.6-7.385v-.446c0-3.457,1.683-8.9,2.686-11.83A1.81,1.81,0,0,1,14.553,2.453Zm12.016,9.953c.273-3.66-1.526-8.631-1.767-8.631-10.495,0-10.7.161-10.792.43-.783,2.29-1.5,9.082-.855,9.65.178.129.349,1.965,4.322,1.714,2.6-.012,2.972-2.428,4.726-2.318C23.879,13.357,25.578,14.808,26.569,12.406Z"
+                      transform="translate(-10.188 -2.453)"
+                      fill="#fff"
+                    />
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <span>Local wines &#38; Craft beer</span>
+          </div>
+          <div class="bb-price icontext">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="59.5"
+              height="77.92"
+              viewBox="0 0 59.5 77.92"
+            >
+              <g id="Euro-Icon4" transform="translate(-1138.395 -2134.031)">
+                <path
+                  id="Icon_ionic-ios-wine4"
+                  data-name="Icon ionic-ios-wine"
+                  d="M50.6,2.632A3.912,3.912,0,0,0,46.913,0H12.587A3.949,3.949,0,0,0,8.868,2.632C6.207,9.783,0,27.547,0,38.332V39.7C0,45.2,0,52.692,8.124,61.016a71.092,71.092,0,0,0,6.436,5.578c5.464,4.377,12.549,9.721,15.663,11.07.94,1.839,9.253-6.693,14.717-11.07a75.238,75.238,0,0,0,6.436-5.578C59.5,52.692,59.5,45.2,59.5,39.7V38.332C59.5,27.6,53.293,9.783,50.6,2.632Z"
+                  transform="translate(1138.395 2134.031)"
+                  fill="#cda334"
+                />
+                <g
+                  id="Euro_Empty4"
+                  data-name="Euro Empty"
+                  transform="translate(1156.118 2156.338)"
+                >
+                  <path
+                    id="Icon_awesome-euro-sign4"
+                    data-name="Icon awesome-euro-sign"
+                    d="M21.794,29.028a.841.841,0,0,0-1.012-.657,14.736,14.736,0,0,1-3.186.38,9.03,9.03,0,0,1-8.52-5.994h7.975a.842.842,0,0,0,.821-.657l.447-1.989a.842.842,0,0,0-.821-1.026H8.082a15.142,15.142,0,0,1,.01-2.963H18.374a.842.842,0,0,0,.822-.662l.457-2.087a.842.842,0,0,0-.822-1.022h-9.7a8.81,8.81,0,0,1,8.25-5.263,13.739,13.739,0,0,1,2.655.291.842.842,0,0,0,.982-.6l.841-3.112a.841.841,0,0,0-.654-1.046,20.427,20.427,0,0,0-3.7-.365,14.99,14.99,0,0,0-14.348,10.1H.842A.842.842,0,0,0,0,13.192v2.087a.842.842,0,0,0,.842.842H2.355a20.823,20.823,0,0,0-.013,2.963H.842A.842.842,0,0,0,0,19.926v1.989a.842.842,0,0,0,.842.842H2.954A14.694,14.694,0,0,0,17.51,33.674a17.5,17.5,0,0,0,4.286-.546.842.842,0,0,0,.616-.979l-.619-3.121Z"
+                    transform="translate(0 -2.25)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </svg>
+            <span>Price Range: &euro;10 - &euro;2</span>
+          </div>
+        </div>
+        <!-- <div class="bb-icon-text">
+          <span>Wine Shop</span>
+          <span>Veronese Delicacies</span>
+          <span>Great Price Range</span>
+        </div> -->
+        <div class="img-laman">
+          <img
+            src="/assets/img/oLaMandorla/facade02.jpg"
+            alt="Photo of the bar"
+          />
+        </div>
+      </div>
+
+      <div class="history-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere history">The History</span></h2>
+        </div>
+        <div class="par-water-cont">
+          <div class="p2">
+            85 years ago, the Osteria La Mandorla opened its doors for the first
+            time, and for the last 13 years its been run by these 2 gentlemen -
+            Leo and Nicola.
+          </div>
+          <div class="watermark-history-laman">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="580"
+              height="230"
+              viewBox="0 0 699 277"
+            >
+              <g id="Alcal-Watermark4" transform="translate(-790 -1261)">
+                <text
+                  id="Al_Calmiere4"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1382)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere-24"
+                  data-name="Al Calmiere"
+                  transform="translate(800 1504)"
+                  fill="none"
+                  stroke="#A02F2F"
+                  stroke-width="1"
+                  font-size="110"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+                <text
+                  id="Al_Calmiere-34"
+                  data-name="Al Calmiere"
+                  transform="translate(790 1440)"
+                  fill="#A02F2F"
+                  font-size="119"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">History</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="history-img-cont">
+          <div class="img-caption-cont">
+            <img
+              class="img-laman03"
+              src="/assets/img/oLaMandorla/Owners.jpg"
+              alt="Photo of the managers"
+            />
+            <p class="img-caption">Nicola (left) and Leo (right)</p>
+          </div>
+          <div class="p3">
+            An osteria in the center of Verona, a stones throw from Piazza Brà,
+            is one of the most historic establishments in the city which finds
+            new life thanks to the work of two young managers who have renovated
+            it without denying its ancient vocation.
+          </div>
+        </div>
+        <div class="history-img-cont">
+          <div class="p3">
+            When it's closed, people say that it looks like a hole in the wall,
+            but when the sun sets, it transforms to exactly what you would
+            expect an Italian bar to be. <br />
+            P.S. - You have to try their specialty, 'Mandorlino'.
+          </div>
+          <div class="img-caption-cont">
+            <img
+              class="img-laman03"
+              src="/assets/img/oLaMandorla/278178059_527620502392753_6911980766205861714_n.jpg"
+              alt="Photo of the wine list"
+            />
+            <p class="img-caption">The 'Menu'</p>
+          </div>
+        </div>
+      </div>
+      <div class="gallery home" id="gallery3">
+        <div class="heading03">
+          <h2>
+            <span class="al-calmiere gallery-head">Gallery</span>
+          </h2>
+        </div>
+        <div class="gallery-cont">
+          <div class="gallery-img-cont">
+            <!-- <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+              
+                <div class="image">
+                    <img src="/assets/img/AlCal/IMG-20221212-WA0015.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+               
+                <div class="image">
+                    <img src="/assets/img/AlCal/IMG-20221212-WA0009.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                
+                <div class="image">
+                    <img src="/assets/img/AlCal//IMG-20221212-WA0010.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div> -->
+            <img src="/assets/img/oLaMandorla/LaMandorlaDentro.png" alt="" />
+          </div>
+          <div class="gallery-watermark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="261"
+              height="388"
+              viewBox="0 0 326 484"
+            >
+              <g id="gallery-watermark4" transform="translate(-980 -4918)">
+                <text
+                  id="Gallery4"
+                  transform="translate(1126 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.3)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-24"
+                  data-name="Gallery"
+                  transform="translate(1265 5401) rotate(-90)"
+                  fill="none"
+                  stroke="rgba(0,0,0,0.31)"
+                  stroke-width="1"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+                <text
+                  id="Gallery-34"
+                  data-name="Gallery"
+                  transform="translate(1193 5401) rotate(-90)"
+                  font-size="144"
+                  font-family="Lora-Regular, Lora"
+                  opacity="0.441"
+                >
+                  <tspan x="0" y="0">Gallery</tspan>
+                </text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="heading02">
+          <h2><span class="al-calmiere contact-head">Contact</span></h2>
+        </div>
+
+        <div class="contact-content">
+          <div class="hours">
+            <table>
+              <tr>
+                <th><h3>Monday</h3></th>
+                <th>17:00 - 00:00</th>
+              </tr>
+              <tr>
+                <th><h3>Tuesday</h3></th>
+                <th>17:00 - 00:00</th>
+              </tr>
+              <tr>
+                <th><h3>Wednesday</h3></th>
+                <th>17:00 - 00:00</th>
+              </tr>
+              <tr>
+                <th><h3>Thursday</h3></th>
+                <th>17:00 - 00:00</th>
+              </tr>
+              <tr>
+                <th><h3>Friday</h3></th>
+                <th>17:00 - 00:00</th>
+              </tr>
+              <tr>
+                <th><h3>Saturday</h3></th>
+                <th>17:00 - 01:00</th>
+              </tr>
+              <tr>
+                <th><h3>Sunday</h3></th>
+                <th>17:00 - 01:00</th>
+              </tr>
+            </table>
+            <div class="contact-text">
+              <div class="phone">
+                <a href="tel:+39 045 597053">
+                  <h3>Phone:</h3>
+                  045 597053</a
+                >
+              </div>
+              <div class="address">
+                <h3>Address:</h3>
+                Via Alberto Mario 23, Verona
+              </div>
+            </div>
+            <div class="buttonwrapper">
+              <div class="button2">
+                <a
+                  href="https://www.google.com/maps/place/Osteria+La+Mandorla/@45.4397195,10.9900163,16.56z/data=!4m5!3m4!1s0x477f5f45f9b66939:0xa731d42332d929eb!8m2!3d45.4399762!4d10.9937648"
+                  >Directions</a
+                >
+              </div>
+              <div class="button1">
+                <a href="https://www.instagram.com/osteria_la_mandorla/?hl=en"
+                  >Instagram</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-right">
+            <div class="map01">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    class="gmap_iframe"
+                    width="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=493&amp;height=535&amp;hl=en&amp;q=osteria la mandorla&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  ></iframe
+                  ><a href="https://embedmapgenerator.com"
+                    >google maps code generator</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 100%;
+                    height: 535px;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 100%;
+                    height: 535px;
+                  }
+                  .gmap_iframe {
+                    height: 535px !important;
+                  }
+                </style>
+              </div>
+            </div>
+
+            <div class="alcal-some">
+              <a href="https://www.facebook.com/OsteriaLaMandorla/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/osteria_la_mandorla/?hl=en"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Back to top -->
+    <a href="#" id="up">
+      <p>&#8593;</p>
+    </a>
+
+    <footer>
+      <a href="#" class="logo">Culture Cave</a>
+      <!-- <a href="#" class="logo-mobile">CC</a> -->
+
+      <div class="credit">Copyright &#169; 2022 by Paolo Papania</div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
